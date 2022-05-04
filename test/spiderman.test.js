@@ -1,3 +1,5 @@
+const Spiderman = require("./../app/spiderman")
+
 describe("Unit Test for Spiderman Class", () => {
     test('1) Create an spiderman object', () => {
 
@@ -11,6 +13,6 @@ describe("Unit Test for Spiderman Class", () => {
         expect(andrewGarfield.actor).toBe("Andrew Garfield");
         expect(andrewGarfield.movies).toBe(31);
         expect(andrewGarfield.studio).toBe("Sony");
-        
+
     })
 })
